@@ -1,0 +1,19 @@
+services:
+    database:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        environment:
+            - ACCEPT_EULA=Y
+            - MSSQL_SA_PASSWORD=Admin1234@
+            - MSSQL_PID=Express
+        ports:
+            - 1433:1433
+        volumes:
+            - ./data:/app/data
+            - sqlserverdata:/var/opt/mssql
+volumes:
+    sqlserverdata:
+
+Server: 10.20.20.304,1433
+
+Login: sa
+Password: Admin1234@
