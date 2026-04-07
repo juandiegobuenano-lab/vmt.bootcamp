@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="Prueba.Application/Prueba.Application.csproj" Id="a2f9814b-c236-4f27-8e3c-7b786b4c94a2" />
+  <Project Path="Prueba.Infrastructure/Prueba.Infrastructure.csproj" Id="019b542a-cdd0-4f9b-844e-3be61f024c10" />
+  <Project Path="Prueba.Shared/Prueba.Shared.csproj" Id="fee73f5d-19ee-47cd-9c7d-33106ce02506" />
   <Project Path="PruebaDomain/PruebaDomain.csproj" />
   <Project Path="PruebaWebApi/PruebaWebApi.csproj" />
 </Solution>
