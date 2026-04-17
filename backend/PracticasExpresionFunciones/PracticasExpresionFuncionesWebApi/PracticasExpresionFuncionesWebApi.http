@@ -1,0 +1,6 @@
+@PracticasExpresionFuncionesWebApi_HostAddress = http://localhost:5027
+
+GET {{PracticasExpresionFuncionesWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
