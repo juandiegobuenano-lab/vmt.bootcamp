@@ -1,0 +1,41 @@
+.header {
+    background: #13253b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+}
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+p {
+    font-weight: 700;
+    margin: 0;
+}
+
+button {
+    background: #ff2d75;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.verde {
+    color: #00c853;
+}
+
+.gris {
+    color: #b7bec8;
+}

@@ -1,0 +1,43 @@
+<div class="container">
+    <section class="card">
+        <h2>Búsqueda</h2>
+        <input [(ngModel)]="busqueda" placeholder="Buscar materia">
+
+        @if (busqueda) {
+            <p>Buscando: {{ busqueda }}</p>
+        }
+    </section>
+
+    <section class="card">
+        <h2>Mis materias</h2>
+
+        @for (materia of materias; track materia.nombre) {
+            <p [ngClass]="materia.aprobada ? 'aprobado' : 'reprobado'">
+                {{ materia.nombre }} - {{ materia.creditos }} créditos
+            </p>
+        } @empty {
+            <p>No tienes materias registradas</p>
+        }
+    </section>
+
+    <section class="card">
+        <h2>Créditos acumulados</h2>
+
+        <div class="barra">
+            <div
+                class="progreso"
+                [style.width.%]="porcentaje()"
+                [ngClass]="{
+                    rojo: porcentaje() < 40,
+                    naranja: porcentaje() >= 40 && porcentaje() <= 70,
+                    verde: porcentaje() > 70
+                }"
+            ></div>
+        </div>
+
+        <p>{{ creditos }} / 120 créditos ({{ porcentaje() }}%)</p>
+
+        <button (click)="sumar()">+10 créditos</button>
+        <button (click)="restar()">-10 créditos</button>
+    </section>
+</div>
