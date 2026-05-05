@@ -1,0 +1,29 @@
+<section class="section">
+  <h2>Lista de empleados</h2>
+  <button type="button" (click)="loadEmployees()">Actualizar empleados</button>
+
+  @if (loading()) {
+    <p>Cargando empleados...</p>
+  }
+
+  @if (error()) {
+    <p class="error">{{ error() }}</p>
+  }
+
+  @if (!loading() && !error()) {
+    <ul>
+      @for (employee of employees(); track employee.id) {
+        <li>
+          <strong>{{ employee.name }}</strong><br />
+          Cargo: {{ employee.position }}<br />
+          Email: {{ employee.email }}<br />
+          Telefono: {{ employee.phone }}<br />
+          Departamento: {{ employee.department }}<br />
+          Salario: {{ employee.salary }}
+        </li>
+      } @empty {
+        <li>No hay empleados registrados.</li>
+      }
+    </ul>
+  }
+</section>

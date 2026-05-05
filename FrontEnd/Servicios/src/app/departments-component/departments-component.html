@@ -1,0 +1,27 @@
+<section class="section">
+  <h2>Lista de departamentos</h2>
+  <button type="button" (click)="loadDepartments()">Actualizar departamentos</button>
+
+  @if (loading()) {
+    <p>Cargando departamentos...</p>
+  }
+
+  @if (error()) {
+    <p class="error">{{ error() }}</p>
+  }
+
+  @if (!loading() && !error()) {
+    <ul>
+      @for (department of departments(); track department.id) {
+        <li>
+          <strong>{{ department.name }}</strong><br />
+          Descripcion: {{ department.description }}<br />
+          Responsable: {{ department.managerName }}<br />
+          Id: {{ department.id }}
+        </li>
+      } @empty {
+        <li>No hay departamentos registrados.</li>
+      }
+    </ul>
+  }
+</section>

@@ -1,0 +1,601 @@
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mNG8113: All imports are unused[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.ts:8:2:
+[37m      8 │   [32mimports[37m: [DepartmentsComponent, EmployeesComponent],
+        ╵   [32m~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG5002: Unexpected closing tag "main". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:5:0:
+[37m      5 │ [32m</main>[37m
+        ╵ [32m~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:9:15:
+[37m      9 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2306: File 'C:/Users/Asus/OneDrive/Documentos/BOOTCAMP/FrontEnd/Servicios/src/environment/environment.ts' is not a module.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2306: File 'C:/Users/Asus/OneDrive/Documentos/BOOTCAMP/FrontEnd/Servicios/src/environment/environment.ts' is not a module.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/employees-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'exportconstenvironment'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:6:0:
+[37m      6 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:6:0:
+[37m      6 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:6:0:
+[37m      6 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2306: File 'C:/Users/Asus/OneDrive/Documentos/BOOTCAMP/FrontEnd/Servicios/src/environment/environment.ts' is not a module.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2306: File 'C:/Users/Asus/OneDrive/Documentos/BOOTCAMP/FrontEnd/Servicios/src/environment/environment.ts' is not a module.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/employees-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2304: Cannot find name 'exportconstenvironment'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:0:0:
+[37m      0 │ [32m[37m
+        ╵ [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:5:0:
+[37m      5 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:6:0:
+[37m      6 │ [32m}[37m;
+        ╵ [32m^[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:7:0:
+[37m      7 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1128: Declaration or statement expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/environment/environment.ts:6:0:
+[37m      6 │ [32m}[37m;
+        ╵ [32m^[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/employees-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/employee.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/employees-service.ts:6:25:
+[37m      6 │ import { Employee } from [32m'./interfaces/employee.interface'[37m;
+        ╵                          [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../employees-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/employees-component/employees-component.ts:3:33:
+[37m      3 │ import { EmployeesService } from [32m'../employees-service'[37m;
+        ╵                                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/employees-component/employees-component.ts:27:4:
+[37m      27 │     [32mthis.employeesService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'employees' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/employees-component/employees-component.ts:28:13:
+[37m      28 │       next: ([32memployees[37m) => {
+         ╵              [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../employees-service"[0m
+
+    src/app/employees-component/employees-component.ts:2:33:
+[37m      2 │ import { EmployeesService } from [32m'../employees-service'[37m;
+        ╵                                  [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:11:13:
+[37m      11 │ export class [32mDepartmentsService[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../environment/environment' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:5:28:
+[37m      5 │ import { environment } from [32m'../environment/environment'[37m;
+        ╵                             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:0:
+[37m      6 │ [32mimport[37m { Department } from './interfaces/department.interface';
+        ╵ [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module './interfaces/department.interface' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:6:27:
+[37m      6 │ import { Department } from [32m'./interfaces/department.interface'[37m;
+        ╵                            [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:11:13:
+[37m      11 │ export class [32mDepartmentsService[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1141: String literal expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/Servicios/departments-service.ts:11:13:
+[37m      11 │ export class [32mDepartmentsService[37m {
+         ╵              [32m~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '../departments-service' or its corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:3:35:
+[37m      3 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "../departments-service"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m'../departments-service'[37m;
+        ╵                                    [32m~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS1109: Expression expected.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:4:0:
+[37m      4 │ [32mimport[37m { Department } from '../interfaces/department.interface';
+        ╵ [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2571: Object is of type 'unknown'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:27:4:
+[37m      27 │     [32mthis.departmentsService[37m.getAll().subscribe({
+         ╵     [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS7006: Parameter 'departments' implicitly has an 'any' type.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/departments-component/departments-component.ts:28:13:
+[37m      28 │       next: ([32mdepartments[37m) => {
+         ╵              [32m~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mExpected string but found ";"[0m
+
+    src/app/departments-component/departments-component.ts:2:35:
+[37m      2 │ import { DepartmentsService } from [32m;[37m
+        ╵                                    [32m^[0m
+
+[39m[22m
