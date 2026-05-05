@@ -1,6 +1,18 @@
 <section class="section">
-  <h2>Lista de departamentos</h2>
-  <button type="button" (click)="loadDepartments()">Actualizar departamentos</button>
+  <h2>Departamentos</h2>
+  <div class="buttons">
+    <button type="button" class="primary" (click)="agregarDepartment()">+ Agregar Departamento</button>
+    <button type="button" class="secondary" (click)="editarDepartment()">Editar primero</button>
+    <button type="button" class="secondary" (click)="loadDepartments()">Actualizar departamentos</button>
+  </div>
+
+  <input
+    type="text"
+    class="search"
+    placeholder="Buscar departamento por nombre"
+    [value]="search()"
+    (input)="search.set($any($event.target).value)"
+  />
 
   @if (loading()) {
     <p>Cargando departamentos...</p>
@@ -11,17 +23,18 @@
   }
 
   @if (!loading() && !error()) {
-    <ul>
-      @for (department of departments(); track department.id) {
-        <li>
-          <strong>{{ department.name }}</strong><br />
-          Descripcion: {{ department.description }}<br />
-          Responsable: {{ department.managerName }}<br />
-          Id: {{ department.id }}
-        </li>
+    <div class="department-grid">
+      @for (department of filteredDepartments(); track department.id) {
+        <article class="department-card">
+          <h3>{{ department.name }}</h3>
+          <p>{{ department.description }}</p>
+          <p><strong>Responsable:</strong> {{ department.managerName }}</p>
+          <button type="button" class="delete" (click)="eliminarDepartment(department.id)">Eliminar</button>
+        </article>
       } @empty {
-        <li>No hay departamentos registrados.</li>
+        <p>No hay departamentos con ese nombre.</p>
+      
       }
-    </ul>
+    </div>
   }
 </section>

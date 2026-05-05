@@ -1,6 +1,17 @@
 <section class="section">
-  <h2>Lista de empleados</h2>
-  <button type="button" (click)="loadEmployees()">Actualizar empleados</button>
+  <div class="buttons">
+    <button type="button" class="primary" (click)="agregarEmployee()">+ Agregar Empleado</button>
+    <button type="button" class="secondary" (click)="editarEmployee()">Editar primero</button>
+    <button type="button" class="secondary" (click)="loadEmployees()">Actualizar</button>
+  </div>
+
+  <input
+    type="text"
+    class="search"
+    placeholder="Buscar empleado por nombre"
+    [value]="search()"
+    (input)="search.set($any($event.target).value)"
+  />
 
   @if (loading()) {
     <p>Cargando empleados...</p>
@@ -11,19 +22,25 @@
   }
 
   @if (!loading() && !error()) {
-    <ul>
-      @for (employee of employees(); track employee.id) {
-        <li>
-          <strong>{{ employee.name }}</strong><br />
-          Cargo: {{ employee.position }}<br />
-          Email: {{ employee.email }}<br />
-          Telefono: {{ employee.phone }}<br />
-          Departamento: {{ employee.department }}<br />
-          Salario: {{ employee.salary }}
-        </li>
+    <div class="employee-grid">
+      @for (employee of filteredEmployees(); track employee.id) {
+        <article class="employee-card">
+          <img [src]="employee.avatar" [alt]="employee.name" />
+
+          <h3>{{ employee.name }}</h3>
+          <p>{{ employee.position }}</p>
+
+          <span class="department">{{ employee.department }}</span>
+
+          <p>{{ employee.email }}</p>
+          <p>{{ employee.phone }}</p>
+          <p>${{ employee.salary }}</p>
+
+          <button type="button" class="delete" (click)="eliminarEmployee(employee.id)">Eliminar</button>
+        </article>
       } @empty {
-        <li>No hay empleados registrados.</li>
+        <p>No hay empleados con ese nombre.</p>
       }
-    </ul>
+    </div>
   }
 </section>
